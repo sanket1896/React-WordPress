@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/React-Wordpress/precache-manifest.9a33b213948f43f388bd4dc0df7f041a.js"
+  "/React-WordPress/precache-manifest.c0ac8f9eb71000a4a45509ce00a2eb17.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/React-Wordpress/index.html", {
+workbox.routing.registerNavigationRoute("/React-WordPress/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

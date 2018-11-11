@@ -1,15 +1,15 @@
 {
-  "main.css": "/React-Wordpress/static/css/main.7e1b9b01.chunk.css",
-  "main.js": "/React-Wordpress/static/js/main.1d9c1d3e.chunk.js",
-  "main.js.map": "/React-Wordpress/static/js/main.1d9c1d3e.chunk.js.map",
-  "static/css/1.3edf4068.chunk.css": "/React-Wordpress/static/css/1.3edf4068.chunk.css",
-  "static/js/1.a98b6536.chunk.js": "/React-Wordpress/static/js/1.a98b6536.chunk.js",
-  "static/js/1.a98b6536.chunk.js.map": "/React-Wordpress/static/js/1.a98b6536.chunk.js.map",
-  "runtime~main.js": "/React-Wordpress/static/js/runtime~main.c9a7b603.js",
-  "runtime~main.js.map": "/React-Wordpress/static/js/runtime~main.c9a7b603.js.map",
-  "static/css/1.3edf4068.chunk.css.map": "/React-Wordpress/static/css/1.3edf4068.chunk.css.map",
-  "static/css/main.7e1b9b01.chunk.css.map": "/React-Wordpress/static/css/main.7e1b9b01.chunk.css.map",
-  "index.html": "/React-Wordpress/index.html",
-  "precache-manifest.9a33b213948f43f388bd4dc0df7f041a.js": "/React-Wordpress/precache-manifest.9a33b213948f43f388bd4dc0df7f041a.js",
-  "service-worker.js": "/React-Wordpress/service-worker.js"
+  "main.css": "/React-WordPress/static/css/main.7e1b9b01.chunk.css",
+  "main.js": "/React-WordPress/static/js/main.aade4fdb.chunk.js",
+  "main.js.map": "/React-WordPress/static/js/main.aade4fdb.chunk.js.map",
+  "static/css/1.3edf4068.chunk.css": "/React-WordPress/static/css/1.3edf4068.chunk.css",
+  "static/js/1.a98b6536.chunk.js": "/React-WordPress/static/js/1.a98b6536.chunk.js",
+  "static/js/1.a98b6536.chunk.js.map": "/React-WordPress/static/js/1.a98b6536.chunk.js.map",
+  "runtime~main.js": "/React-WordPress/static/js/runtime~main.80955768.js",
+  "runtime~main.js.map": "/React-WordPress/static/js/runtime~main.80955768.js.map",
+  "static/css/1.3edf4068.chunk.css.map": "/React-WordPress/static/css/1.3edf4068.chunk.css.map",
+  "static/css/main.7e1b9b01.chunk.css.map": "/React-WordPress/static/css/main.7e1b9b01.chunk.css.map",
+  "index.html": "/React-WordPress/index.html",
+  "precache-manifest.c0ac8f9eb71000a4a45509ce00a2eb17.js": "/React-WordPress/precache-manifest.c0ac8f9eb71000a4a45509ce00a2eb17.js",
+  "service-worker.js": "/React-WordPress/service-worker.js"
 }
