@@ -2,7 +2,7 @@
   "name": "react-wp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanket1896.github.io/reactwp",
+  "homepage": "https://sanket1896.github.io/React-WordPress",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
