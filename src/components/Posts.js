@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import Config from "../Variable";
 import Post from './Post';
 import LoadingScreen from './LoadingScreen';
+
 
 class Posts extends Component {
   constructor(props){
@@ -12,7 +14,7 @@ class Posts extends Component {
   }
 
   componentDidMount(){
-    fetch("https://thundery-rescue.000webhostapp.com/wp-json/wp/v2/posts")
+    fetch(`${Config.BASE_URL}Posts`)
       .then(res => res.json())
       .then(result => {
         this.setState({

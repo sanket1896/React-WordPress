@@ -1,38 +1,44 @@
-import React, { Component } from 'react';
-import LoadingScreen from './LoadingScreen'
+import React, { Component } from "react";
+import Config from "../Variable";
+import LoadingScreen from "./LoadingScreen";
+
 class PostPage extends Component {
-  constructor(){
+  constructor() {
     super();
-    this.state={
-      isLoading : false,
-      item : []
-    }
+    this.state = {
+      isLoading: false,
+      item: []
+    };
   }
 
-  componentDidMount(props){
-    fetch(`https://thundery-rescue.000webhostapp.com/wp-json/wp/v2/posts?slug=${this.props.match.params.id}`)
+  componentDidMount(props) {
+    fetch(
+      `${Config.BASE_URL}posts?slug=${
+        this.props.match.params.id
+      }`
+    )
       .then(res => res.json())
       .then(result => {
         this.setState({
-          isLoading : true,
-          item : result
-        })
+          isLoading: true,
+          item: result
+        });
       })
-      .catch(err => console.log(err))
+      .catch(err => console.log(err));
   }
 
   render() {
     const { isLoading, item } = this.state;
 
     if (!isLoading) {
-      return <LoadingScreen />
+      return <LoadingScreen />;
     } else {
       return (
         <div className="post-page">
           <h1>{item[0].title.rendered}</h1>
           <div
-          className="post-content"
-          dangerouslySetInnerHTML={{ __html: item[0].content.rendered }}
+            className="post-content"
+            dangerouslySetInnerHTML={{ __html: item[0].content.rendered }}
           />
         </div>
       );
