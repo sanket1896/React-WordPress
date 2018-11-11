@@ -1,7 +1,7 @@
 {
   "main.css": "/React-WordPress/static/css/main.7e1b9b01.chunk.css",
-  "main.js": "/React-WordPress/static/js/main.6bdd06f2.chunk.js",
-  "main.js.map": "/React-WordPress/static/js/main.6bdd06f2.chunk.js.map",
+  "main.js": "/React-WordPress/static/js/main.d24b0227.chunk.js",
+  "main.js.map": "/React-WordPress/static/js/main.d24b0227.chunk.js.map",
   "static/css/1.3edf4068.chunk.css": "/React-WordPress/static/css/1.3edf4068.chunk.css",
   "static/js/1.a98b6536.chunk.js": "/React-WordPress/static/js/1.a98b6536.chunk.js",
   "static/js/1.a98b6536.chunk.js.map": "/React-WordPress/static/js/1.a98b6536.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.3edf4068.chunk.css.map": "/React-WordPress/static/css/1.3edf4068.chunk.css.map",
   "static/css/main.7e1b9b01.chunk.css.map": "/React-WordPress/static/css/main.7e1b9b01.chunk.css.map",
   "index.html": "/React-WordPress/index.html",
-  "precache-manifest.9ea31a361d0a645233fbda5b4cdbda6f.js": "/React-WordPress/precache-manifest.9ea31a361d0a645233fbda5b4cdbda6f.js",
+  "precache-manifest.e31feb634536f3175d84aa725257bcb8.js": "/React-WordPress/precache-manifest.e31feb634536f3175d84aa725257bcb8.js",
   "service-worker.js": "/React-WordPress/service-worker.js"
 }
