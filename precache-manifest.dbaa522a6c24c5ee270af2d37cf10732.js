@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/React-WordPress/static/js/runtime~main.80955768.js"
   },
   {
-    "revision": "d24b02274cf78b296369",
-    "url": "/React-WordPress/static/js/main.d24b0227.chunk.js"
+    "revision": "32b3d81f85a76959cb8b",
+    "url": "/React-WordPress/static/js/main.32b3d81f.chunk.js"
   },
   {
-    "revision": "a98b653657485788ed5f",
-    "url": "/React-WordPress/static/js/1.a98b6536.chunk.js"
+    "revision": "ee5ce94bb3c166200a42",
+    "url": "/React-WordPress/static/js/1.ee5ce94b.chunk.js"
   },
   {
-    "revision": "d24b02274cf78b296369",
+    "revision": "32b3d81f85a76959cb8b",
     "url": "/React-WordPress/static/css/main.7e1b9b01.chunk.css"
   },
   {
-    "revision": "a98b653657485788ed5f",
+    "revision": "ee5ce94bb3c166200a42",
     "url": "/React-WordPress/static/css/1.3edf4068.chunk.css"
   },
   {
-    "revision": "a5bbd681ec00062c8576c7bd2fbd4c7c",
+    "revision": "3336caa4980c2668129b81b9f8a52609",
     "url": "/React-WordPress/index.html"
   }
 ];
