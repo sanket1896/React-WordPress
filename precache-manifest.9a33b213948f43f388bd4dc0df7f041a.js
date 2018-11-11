@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/React-Wordpress/static/js/runtime~main.c9a7b603.js"
   },
   {
-    "revision": "8242099eb24660eae91c",
-    "url": "/React-Wordpress/static/js/main.8242099e.chunk.js"
+    "revision": "1d9c1d3ea9dbbe7cdf7a",
+    "url": "/React-Wordpress/static/js/main.1d9c1d3e.chunk.js"
   },
   {
-    "revision": "ee5ce94bb3c166200a42",
-    "url": "/React-Wordpress/static/js/1.ee5ce94b.chunk.js"
+    "revision": "a98b653657485788ed5f",
+    "url": "/React-Wordpress/static/js/1.a98b6536.chunk.js"
   },
   {
-    "revision": "8242099eb24660eae91c",
+    "revision": "1d9c1d3ea9dbbe7cdf7a",
     "url": "/React-Wordpress/static/css/main.7e1b9b01.chunk.css"
   },
   {
-    "revision": "ee5ce94bb3c166200a42",
+    "revision": "a98b653657485788ed5f",
     "url": "/React-Wordpress/static/css/1.3edf4068.chunk.css"
   },
   {
-    "revision": "cd494c1f2b69dafaede9ece66938f74e",
+    "revision": "c140fab58326b82eb4b07b254bb29973",
     "url": "/React-Wordpress/index.html"
   }
 ];
