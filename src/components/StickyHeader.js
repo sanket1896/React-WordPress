@@ -1,5 +1,3 @@
-// not working till now
-
 import React, { Component } from "react";
 
 export default class StickyHeader extends Component {

@@ -10,11 +10,11 @@ class Post extends Component {
           <Link to={`/post/${this.props.data.slug}`} style={{textDecoration: 'none'}}>
             <h3 className="post-title" >{this.props.data.title.rendered}</h3>
           </Link>
-          <div className="">
+          {/* <div className="">
             {this.props.data.cats.map((cat,index) => (
               <span className="category-tag" key={index}>{cat.name}</span>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     )

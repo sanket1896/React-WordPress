@@ -1,98 +1,108 @@
 body, * {
-  margin:0;
-  padding:0;
+	margin:0;
+	padding:0;
 }
 
 .container {
-  max-width: 900px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 50px 20px;
-  margin: 0 auto;
-  box-sizing: border-box;
+	max-width: 900px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+	grid-gap: 10px;
+	padding: 50px 20px;
+	margin: 0 auto;
 }
 
 .post {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 3px;
-  box-sizing: border-box;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .post img {
-  width: 100%;
+	width: 100%;
 }
 
 .post-title{
-  color: #79ADDC;
-  cursor: pointer;
+	display: inline;
+	color: #79ADDC;
+	cursor: pointer;
+	background-image: linear-gradient(to right, rgba(243, 243, 243, 0) 50%, rgba(254, 230, 3, 1) 50%);
+	background-position: 0;
+	background-size: 200%;
+	transition: all 0.4s;
 }
 .post-title:hover{
-  color: #648EB5;
+	color: #fff;
+	background-position: -100%;
 }
 
 .post-page {
-  max-width: 900px;
-  margin : 0 auto;
-  padding : 20px;
+	max-width: 900px;
+	margin : 0 auto;
+	padding : 20px;
 }
 .post-page > h1 {
-  color: #79ADDC;
+	color: #79ADDC;
 }
 .post-page img{
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .post-page .post-content {
-  padding : 30px 0;
+	padding : 30px 0;
 }
 .category-tag{
-  background-color: #ffee93;
-  color: #4e4e4e;
-  padding: 2px 5px;
-  margin: 2px;
-  border-radius: 2px;
-  text-transform: uppercase;
-  display: inline-block;
-  font-size: 12px;
+	background-color: #ffee93;
+	color: #4e4e4e;
+	padding: 2px 5px;
+	margin: 2px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 12px;
 }
 
 header {
-  height: 50px;
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  z-index: 99;
+	height: 50px;
+	z-index: 99;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 header .header-container {
-  max-width: 900px;
-  margin : 0 auto;
-  padding: 0 20px;
+	max-width: 900px;
+	height: 100%;
+	margin : 0 auto;
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .stickyHeader {
-  position: fixed;
-  left: 0;
-  top: -50px;
-  width: 100%;
-  transition: .3s;
-  background-color: lemonchiffon;
+	position: fixed;
+	left: 0;
+	top: -70px;
+	width: 100%;
+	transition: .3s;
+	background-color: lemonchiffon;
+	box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
 .stickyHeader.isStuck {
-  top: 0;  
+	top: 0;  
 }
 
 
 .loading-screen-center {
-  top: 0px;
-  bottom: 0;
-  width: 100%;
+	top: 0px;
+	bottom: 0;
+	width: 100%;
 }
 .loading-screen-center > div{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
